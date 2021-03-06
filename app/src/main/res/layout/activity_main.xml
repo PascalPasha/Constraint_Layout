@@ -40,22 +40,37 @@
         tools:layout_constraintRight_creator="1"
         android:layout_marginTop="16dp" />
 
+
     <TextView
         android:id="@+id/fungsiproduk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
-        android:text="@string/fProduk"
-        android:textSize="24dp"
         android:background="@color/white"
+        android:text="@string/fProduk"
         android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"/>
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
-
+    <TextView
+        android:id="@+id/hargaproduk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="48dp"
+        android:background="@color/white"
+        android:text="@string/hProduk"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fungsiproduk"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
